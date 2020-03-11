@@ -16,7 +16,7 @@ export interface Config {
 }
 
 export async function handlePullRequest(context: Context): Promise<void> {
-  const config = (await context.config('auto_assign.yml')) as Config
+  const config = (await context.config('auto-assign.yml')) as Config
 
   if (!config) {
     throw new Error('the configuration file failed to load')

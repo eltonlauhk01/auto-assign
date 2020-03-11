@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "env": {
+    "APP_ID": "@app-id-auto-assign",
+    "WEBHOOK_SECRET": "@webhook-secret-auto-assign",
+    "PRIVATE_KEY": "@private-key-base64-encoded-auto-assign"
+  },
+  "builds": [{ "src": "now.js", "use": "@now/node" }],
+  "routes": [{ "src": "/", "dest": "/now.js" }]
+}

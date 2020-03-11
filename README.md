@@ -15,7 +15,7 @@
 
 ## Usage
 1. [Install the app](https://github.com/apps/auto-assign).
-2. Create `.github/auto_assign.yml` in your repository with the following.
+2. Create `.github/auto-assign.yml` in your repository with the following.
 
 ### Single Reviewers List
 Add reviewers/assignees to the pull request based on single reviewers list.

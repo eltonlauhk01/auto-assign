@@ -36,6 +36,7 @@
     }
   },
   "dependencies": {
+    "@chadfawcett/probot-serverless-now": "^1.0.0",
     "@types/lodash": "^4.14.119",
     "@types/node": "^10.12.18",
     "lodash": "^4.17.15",
