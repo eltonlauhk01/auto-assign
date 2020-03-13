@@ -9,7 +9,7 @@ interface ChooseUsersResponse {
 export function chooseUsers(
   candidates: string[],
   desiredNumber: number,
-  filterUser: string = ''
+  filterUser = ''
 ): ChooseUsersResponse {
   const { teams, users } = candidates.reduce(
     (acc: ChooseUsersResponse, reviewer: string): ChooseUsersResponse => {
